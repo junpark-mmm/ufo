@@ -136,6 +136,7 @@ list( APPEND ufo_src_files
     ${sfccorrected_src_files}
     ${radardopplerwind_src_files}
     ${radarradialvelocity_src_files}
+    ${goescloudwaterpath_src_files}
     ${radarreflectivity_src_files}
     ${profile_src_files}
     ${groundgnss_src_files}
