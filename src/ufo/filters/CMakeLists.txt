@@ -392,6 +392,8 @@ set ( filters_files
       obsfunctions/RecordNumberToObsSpace.h
       obsfunctions/ModelLevelIndex.cc
       obsfunctions/ModelLevelIndex.h
+      obsfunctions/WeightingFunctionPeakHeight.cc
+      obsfunctions/WeightingFunctionPeakHeight.h
 )
 
 if( ${gsw_FOUND} )
