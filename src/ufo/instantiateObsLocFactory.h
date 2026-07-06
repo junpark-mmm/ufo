@@ -13,6 +13,7 @@
 #include "ufo/obslocalization/ObsHorLocSOAR.h"
 #include "ufo/obslocalization/ObsLocalizationBase.h"
 #include "ufo/obslocalization/ObsVertLocalization.h"
+#include "ufo/obslocalization/ObsVertLocalization2D.h"
 
 namespace ufo {
 
@@ -25,6 +26,8 @@ template<typename ITERATOR> void instantiateObsLocFactory() {
            makerBoxCar_("Horizontal Box car");
   static ObsLocalizationMaker<ITERATOR, ObsVertLocalization<ITERATOR>>
            makerVertLoc_("Vertical localization");
+  static ObsLocalizationMaker<ITERATOR, ObsVertLocalization2D<ITERATOR>>
+           makerVertLoc2D_("Vertical localization 2D");
 }
 
 }  // namespace ufo

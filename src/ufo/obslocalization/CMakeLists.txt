@@ -14,6 +14,8 @@ set ( obslocalization_files
       ObsLocalizationBase.h
       ObsLocalizationParametersBase.h
       ObsVertLocalization.h
+      ObsVertLocalization2D.h
+      ObsVertLoc2DParameters.h
       ObsVertLocParameters.h
 )
 
